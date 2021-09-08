@@ -57,6 +57,8 @@ object Build : BuildType({
 object PetclinicVcs : GitVcsRoot({
     name = "PetclinicVcs"
     url = "https://github.com/tfahey/spring-petclinic.git"
+    branch = "refs/heads/main"
+    branchSpec = "refs/heads/*"
 })
 
 
